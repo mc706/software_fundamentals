@@ -126,3 +126,16 @@ static void Main(string[] args)
      Console.WriteLine("The checkout price of this cart is {0}", cart.GetCheckoutPrice());
 }
 ```
+
+###Problem 3
+Design a database according to the following requirements. Make sure that your data structures are fully normalized.
+
+The requirements are you are building a social network. 
+
+* `Users` have a first_name, last_name, username.
+* `Users` can have many `Posts`
+* `Posts` have a user, content, and a timestamp
+* `Posts` have many `Comments`
+* `Comments` have a user, content, and a timestamp
+
+Draw a Entity Relationship Diagram (ERD) to describe how you would build the database for this social network.
