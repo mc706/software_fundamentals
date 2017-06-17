@@ -1,8 +1,8 @@
-#Software Fundamentals Practice
+# Software Fundamentals Practice
 
 The following are example requirements lists different projects. For each, create a console application that executes and produces results inline with the requirements.
 
-###Problem 1
+### Problem 1
 
 Write a program that defines a number of classes for shapes. All classes should share a few methods:
 
@@ -76,7 +76,7 @@ static void Main(string[] args)
 
 ---
 
-###Problem 2
+### Problem 2
 Write a program that defines two classes, `Item` and `Cart`. 
 
 Class `Item` should have the following properties:
@@ -127,7 +127,7 @@ static void Main(string[] args)
 }
 ```
 
-###Problem 3
+### Problem 3
 Design a database according to the following requirements. Make sure that your data structures are fully normalized.
 
 The requirements are you are building a social network. 
@@ -139,3 +139,13 @@ The requirements are you are building a social network.
 * `Comments` have a user, content, and a timestamp
 
 Draw a Entity Relationship Diagram (ERD) to describe how you would build the database for this social network.
+
+### Problem 4
+Create a console based application that implements FizzBuzz. your console application should take as an argument the number of to count up to. If a argument is not provided, it should default to 100.
+
+FizzBuzz is defined as the following:
+
+* Output the Numbers from 1 to N
+* If the number is evenly divisble by 3, instead of the number, output "Fizz"
+* If the number is evenly divisible by 5, instead of the number output "Buzz"
+* IF the number is both divisible by 3 and 5, instead output Buzz
