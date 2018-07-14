@@ -148,4 +148,4 @@ FizzBuzz is defined as the following:
 * Output the Numbers from 1 to N
 * If the number is evenly divisble by 3, instead of the number, output "Fizz"
 * If the number is evenly divisible by 5, instead of the number output "Buzz"
-* IF the number is both divisible by 3 and 5, instead output Buzz
+* IF the number is both divisible by 3 and 5, instead output "FizzBuzz"
